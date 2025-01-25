@@ -1,10 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+My Portfolio Website
+Welcome to my Portfolio Website! This project is built with Next.js, incorporating a modern and sleek UI using Aceternity UI, Sentry for error monitoring, Tailwind CSS for utility-first styling, and GSAP for smooth animations and transitions.
 
-## Getting Started
+Getting Started
+Follow the steps below to set up and run the development version of this portfolio website on your local machine:
 
-First, run the development server:
+1. Install Dependencies
+Run the following command to install the necessary dependencies:
 
-```bash
+bash
+Copy
+Edit
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+2. Run the Development Server
+Once dependencies are installed, run the development server:
+
+bash
+Copy
+Edit
 npm run dev
 # or
 yarn dev
@@ -12,25 +30,31 @@ yarn dev
 pnpm dev
 # or
 bun dev
-```
+After running the server, open http://localhost:3000 in your browser to view the website. The page will auto-update as you modify the app/page.tsx file.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Technologies Used
+This portfolio website is powered by the following technologies:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Next.js: A powerful React framework for building dynamic, server-rendered websites.
+Aceternity UI: A modern design system for a sleek and intuitive user interface.
+Sentry: Real-time error tracking and monitoring.
+Tailwind CSS: A utility-first CSS framework for fast and responsive styling.
+GSAP: For adding smooth, interactive animations across the website.
+Features
+Interactive Animations: Smooth animations on page load, scroll, and user interactions using GSAP.
+Responsive Design: Fully responsive layout, optimized for mobile and desktop views with Tailwind CSS.
+Error Monitoring: Real-time error tracking using Sentry, ensuring robust performance.
+Learn More
+To dive deeper into the technologies used in this project, check out the following resources:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Next.js Documentation - Explore Next.js features and API.
+Learn Next.js - Interactive tutorial to learn Next.js.
+Aceternity UI Documentation - Learn about the design system that powers this website.
+Tailwind CSS Documentation - Understand how to use utility-first CSS with Tailwind.
+GSAP Documentation - Learn how to create animations with GSAP.
+Sentry Documentation - Learn how to track and fix errors in real-time.
+Deploy on Vercel
+The easiest way to deploy your Next.js app is using the Vercel Platform.
 
-## Learn More
+Check out the Next.js Deployment Documentation for more details on how to deploy your Next.js project.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
