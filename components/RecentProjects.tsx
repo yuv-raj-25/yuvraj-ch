@@ -64,7 +64,7 @@ const RecentProjects = () => {
                       >
                         {/* <ExternalLink className="h-5 w-5 mr-1 group-hover:text-purple-400" /> */}
                         <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    Check Live Site
+                    Live Site / Code
                   </p>
                       </a>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />

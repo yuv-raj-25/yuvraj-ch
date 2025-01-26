@@ -35,7 +35,7 @@ const Skills = () => {
             </React.Fragment>
           ))}
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 pt-28">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 pt-28 ">
           {skills.map((skill, index) => {
             // const Icon = skill.icon;
             return (
