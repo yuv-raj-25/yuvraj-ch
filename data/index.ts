@@ -381,8 +381,8 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Frontend Developer At ContentPlus",
-    desc: "Designed and developed SAAS Product for ContentPlus.",
+    title: "frontend & backend experience in the contentCraft",
+    desc: "Designed and developed SAAS Product for ContentCraft.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },

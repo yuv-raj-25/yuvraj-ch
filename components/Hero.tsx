@@ -63,7 +63,7 @@ const Hero = () => {
             Transforming Ideas into Seamless User Experiences
           </p>
 
-          <a href="https://drive.google.com/file/d/1KnDSqAH3N6cRlKtrHH2X1tFz8eWECCHI/view?usp=sharing">
+          <a href="https://drive.google.com/file/d/14OlSuWVhlcSFXq6orBhdBu61XbVplYYz/view?usp=sharing">
             <MagicButton
               title="Resume"
               icon={<FaLocationArrow />}
