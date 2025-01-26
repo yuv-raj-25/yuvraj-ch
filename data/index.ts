@@ -80,7 +80,7 @@ export const projects = [
     id: 1,
     title: "UNIRIDE",
     des: "A Bike/Car pooling system for college students and working professionals.",
-    img: "/p1.svg",
+    img: "/Uniride.svg",
     iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/three.svg"],
     link: "https://github.com/yuv-raj-25/uni-ride-frontend-yuv",
   },
@@ -383,7 +383,7 @@ export const workExperience = [
   {
     id: 2,
     title: "Frontend Developer At ContentPlus",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    desc: "Designed and developed SAAS Product for ContentPlus.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
@@ -424,4 +424,53 @@ export const socialMedia = [
     img: "/insta.svg",
     link: "https://www.instagram.com/_.yuvrajchaudhary/?hl=en",
   },
+];
+
+export interface SkillItemType {
+  name: string;
+  level: number;
+}
+
+export interface SkillType {
+  category: string;
+  // icon: LucideIcon;
+  items: SkillItemType[];
+}
+export const skills: SkillType[] = [
+  {
+    category: "Frontend Development",
+    items: [
+      { name: "React", level: 90 },
+      { name: "TypeScript", level: 85 },
+      { name: "javascript", level: 90 },
+      { name: "Next.js", level: 80 }
+    ]
+  },
+  {
+    category: "Backend Development",
+    items: [
+      { name: "Node.js", level: 90 },
+      { name: "Express.js", level: 85 },
+      { name: "Microservices", level: 70},
+      { name: "REST APIs", level: 95 }
+    ]
+  },
+  {
+    category: "Database",
+    items: [
+      { name: "PostgreSQL", level: 80 },
+      { name: "MongoDB", level: 85 },
+      { name: "Redis", level: 75 },
+      { name: "Elasticsearch", level: 70 }
+    ]
+  },
+  {
+    category: "DevOps & Cloud",
+    items: [
+      { name: "AWS", level: 85 },
+      { name: "Docker", level: 90 },
+      { name: "Kubernetes", level: 75 },
+      { name: "CI/CD", level: 85 }
+    ]
+  }
 ];
