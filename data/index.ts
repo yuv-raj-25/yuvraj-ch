@@ -114,6 +114,19 @@ export const projects = [
   },
   {
     id: 4,
+    title: "Beyond-Chat",
+    des: "A chatbot app easy to integrate into your website. Built using Next.js, Tailwind CSS, and OpenAI's GPT-3.5 API.",
+    img: "/beyond.svg",
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/vercel.svg",
+    ],
+    link: "https://github.com/yuv-raj-25/beyondchat-bot",
+  },
+  {
+    id: 5,
     title: "Tic Tac Toe",
     des: "A text-based Tic-Tac-Toe game built using React. Players take turns marking X's and O's on a 3x3 grid. The first player to get three in a row wins!",
     img: "/tic.svg",
